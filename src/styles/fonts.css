@@ -7,20 +7,35 @@ body {
 }
 
 @media (min-width: 750px) {
+
   html,
   body {
     font-size: 0.94vw;
   }
 }
+
 @media (min-width: 1440px) {
+
   html,
   body {
-    font-size:1vw;
+    font-size: 1vw;
   }
 }
+
 @media (min-width: 2500px) {
+
   html,
   body {
-    font-size:18px;
+    font-size: 18px;
   }
+}
+
+
+@font-face {
+  font-family: FontPri;
+  src: url('/fonts/Shutterday - Demo.otf');
+}
+
+.FontPri {
+  font-family: FontPri;
 }
