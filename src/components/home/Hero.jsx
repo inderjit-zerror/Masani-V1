@@ -232,6 +232,20 @@ const Hero = () => {
       <img src="/images/Texture1.jpg" alt="DD" className='w-full h-full absolute top-0 left-0 object-cover object-center  z-1 opacity-50' />
       <img src="https://www.adinawedsakiva.com/images/flower_bg.webp" alt="DD" className='w-full h-full absolute top-0 left-0 z-2 object-cover object-center opacity-80' />
 
+      {/* BORDER */}
+      <div className='w-[150px] h-[150px] absolute top-2 left-2 z-2 object-cover object-center opacity-100 -rotate-90'>
+        <img src="/images/Border-Elements.png" alt="DD" className='w-full object-cover object-center' />
+      </div>
+      <div className='w-[150px] h-[150px] absolute bottom-2 right-2 z-2 object-cover object-center opacity-100 rotate-90'>
+        <img src="/images/Border-Elements.png" alt="DD" className='w-full object-cover object-center' />
+      </div>
+      <div className='w-[150px] h-[150px] absolute top-2 right-2 z-2 object-cover object-center opacity-100 '>
+        <img src="/images/Border-Elements.png" alt="DD" className='w-full object-cover object-center' />
+      </div>
+      <div className='w-[150px] h-[150px] absolute bottom-2 left-2 z-2 object-cover object-center opacity-100 rotate-180'>
+        <img src="/images/Border-Elements.png" alt="DD" className='w-full object-cover object-center' />
+      </div>
+
       {/* --- INITIAL CALL SCREEN --- */}
       <div ref={initialContentRef} className="absolute inset-0 flex flex-col items-center justify-center py-24 z-50 b">
 
