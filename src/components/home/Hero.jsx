@@ -234,7 +234,7 @@ const Hero = () => {
 
           <div className="text-[#7c9caf]  text-[4rem] leading-[4.1rem] sm:text-[6rem] sm:leading-[6.1rem]  FontPri capitalize  ">
             <h1 className="hero-text" style={{ visibility: 'hidden', opacity: 0 }}>Masani</h1>
-            <h1 className="hero-text mb-5 text-[2rem] leading-[2.1rem] sm:text-[3rem] sm:leading-[3.1rem]" style={{ visibility: 'hidden', opacity: 0 }}>and</h1>
+            <h1 className="hero-text mb-5 text-[2rem] leading-[2.1rem] sm:text-[3rem] sm:leading-[3.1rem] " style={{ visibility: 'hidden', opacity: 0 }}>and</h1>
             <h1 className="hero-text" style={{ visibility: 'hidden', opacity: 0 }}>Navjot</h1>
           </div>
 
@@ -261,8 +261,8 @@ const Hero = () => {
             className="w-[56px] h-[56px] bg-[#f5f5f5]  rounded-full flex items-center justify-center cursor-grab active:cursor-grabbing z-10 "
             style={{ transform: 'scale(0)' }}
           >
-            <div ref={phoneIconRef} className=" TxtPri   flex items-center justify-center ">
-              <GiClover className='w-6  h-6 ' />
+            <div ref={phoneIconRef} className=" TxtPri    flex items-center justify-center ">
+              <GiClover className='w-6  h-6 text-[#C9984C] ' />
             </div>
           </div>
         </div>
