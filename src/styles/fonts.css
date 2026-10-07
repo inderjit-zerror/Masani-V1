@@ -33,7 +33,8 @@ body {
 
 @font-face {
   font-family: FontPri;
-  src: url('/fonts/Shutterday - Demo.otf');
+  /* src: url('/fonts/Shutterday - Demo.otf'); */
+  src: url('/fonts/Proxima.ttf');
 }
 
 .FontPri {

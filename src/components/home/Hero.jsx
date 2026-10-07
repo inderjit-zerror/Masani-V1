@@ -233,9 +233,9 @@ const Hero = () => {
         <div className="flex flex-col items-center mt-12 space-y-4 px-4 text-center z-5">
 
           <div className="text-[#7c9caf]  text-[4rem] leading-[4.1rem] sm:text-[6rem] sm:leading-[6.1rem]  FontPri capitalize  ">
-            <h1 className="hero-text" style={{ visibility: 'hidden', opacity: 0 }}>Masani</h1>
-            <h1 className="hero-text mb-5 text-[2rem] leading-[2.1rem] sm:text-[3rem] sm:leading-[3.1rem] " style={{ visibility: 'hidden', opacity: 0 }}>and</h1>
-            <h1 className="hero-text" style={{ visibility: 'hidden', opacity: 0 }}>Navjot</h1>
+            <h1 className="hero-text tracking-tighter" style={{ visibility: 'hidden', opacity: 0 }}>Masani</h1>
+            <h1 className="hero-text tracking-tighter  text-[2rem] leading-[2.1rem] sm:text-[3rem] sm:leading-[3.1rem] " style={{ visibility: 'hidden', opacity: 0 }}>and</h1>
+            <h1 className="hero-text tracking-tighter" style={{ visibility: 'hidden', opacity: 0 }}>Navjot</h1>
           </div>
 
 
@@ -258,11 +258,12 @@ const Hero = () => {
             ref={thumbRef}
             onPointerDown={handleDown}
             onTouchStart={handleDown}
-            className="w-[56px] h-[56px] bg-[#f5f5f5]  rounded-full flex items-center justify-center cursor-grab active:cursor-grabbing z-10 "
+            className="w-[56px] h-[56px]  rounded-full flex items-center justify-center cursor-grab active:cursor-grabbing z-10 "
             style={{ transform: 'scale(0)' }}
           >
-            <div ref={phoneIconRef} className=" TxtPri    flex items-center justify-center ">
-              <GiClover className='w-6  h-6 text-[#C9984C] ' />
+            <div ref={phoneIconRef} className=" TxtPri    flex items-center justify-center  ">
+              {/* <GiClover className='w-6  h-6 text-[#C9984C] ' /> */}
+              <img src="/images/Stemp-Img.png" alt="IMG" className='w-full h-full object-cover object-center scale-[1.7] pointer-events-none ' />
             </div>
           </div>
         </div>
